@@ -107,18 +107,35 @@ code {
   color: #1d73cc !important;
   background-color: transparent !important;
   font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .5px;
 }
 
 .nav-link.active .badge-ico-process,
 .nav-link.active .badge-ico-done {
   color: #1d73cc !important;
   background-color: transparent;
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .5px;
 }
 
 /* NAV Item */
 
 .nav-item a {
   color: grey;
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .5px;
 }
 
 .nav-item .nav-link:hover {
@@ -138,11 +155,10 @@ code {
 .nav-pills .nav-link {
   border-radius: .5rem !important;
   color: #1d73cc;
-  margin: .5rem;
 }
 
 .nav-pills .nav-link:hover{
-  background-color: #f8f9fa;
+  background-color: #1f73cc;
 }
 
 .nav-pills .nav-link.active,
@@ -158,7 +174,7 @@ code {
 }
 
 .nav-tabs .nav-item {
-  color: #343a40;
+  color: #1f73cc;
   margin-bottom: 0px !important;
 }
 
@@ -180,7 +196,7 @@ code {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  background-color: #ffc1071f;
+  background-color: #1f73cc;
   border-top: solid 3px #ffc107 !important;
   margin-top: -3px;
   margin-bottom: -9px !important;
