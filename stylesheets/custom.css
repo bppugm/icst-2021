@@ -22,12 +22,17 @@
   height: 100px;
 }
 
-/* CUSTOM HEADING 1 */
+/* CUSTOM HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+}
 
 h1 {
   text-align: center;
   margin: 0.67em 0 !important;
-  font-weight: 300;
 }
 
 /* JUMBOTRON */
@@ -139,7 +144,9 @@ code {
 }
 
 .nav-item .nav-link:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #1d73cc;
+  padding-bottom: 3px;
+  color: #1d73cc !important;
 }
 
 .nav-item a.active span {
@@ -498,12 +505,24 @@ code {
     right: 5.5rem;
     top: 0.6rem;
     padding: 0.55rem 1rem;
+    font-family: 'Dosis' !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .5px;
   }
 }
 
 @media (min-width: 992px) {
   .nav-register {
     margin-left: 10px;
+    font-family: 'Dosis' !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .5px;
   }
 }
 
@@ -730,6 +749,14 @@ code {
 
 /* BUTTONS TEXT */
 
+.btn {
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 @media (max-width: 991px) {
   .article-list .card-footer {
     background: transparent;
@@ -846,11 +873,15 @@ code {
 .btn-primary {
   background-color: #1d73cc !important;
   border-color: #1d73cc !important;
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .bg-pattern-icst {
-  background-color: #f5f9fd;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23307abd' fill-opacity='0.04'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: linear-gradient(to right, #1f73cc50, #3ab77750);
 }
 
 /* speakers */
@@ -877,6 +908,23 @@ code {
   font-family: "Open Sans", Arial, "Calibri", sans-serif;
 }
 
-/* p a {
-  color:  #1d73cc !important;
-} */
+p {
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.alert p {
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #40bb6a;
+}
+
+footer p {
+  font-size: 9pt;
+}
