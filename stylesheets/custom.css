@@ -898,14 +898,15 @@ code {
 }
 .speaker-name {
   font-size: .9rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: .5;
-  font-family: "Montserrat", Arial, "Calibri", sans-serif;
+  font-family: "Dosis";
+  text-transform: uppercase;
 }
 .speaker-aff {
   font-size: .8rem;
   font-weight: 400;
-  font-family: "Open Sans", Arial, "Calibri", sans-serif;
+  font-family: "Merriweather Sans";
 }
 
 p {
