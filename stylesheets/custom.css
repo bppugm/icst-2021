@@ -753,7 +753,7 @@ code {
   font-family: 'Dosis' !important;
   text-transform: uppercase;
   font-weight: 800;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 14px;
 }
 
