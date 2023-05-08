@@ -29,4 +29,4 @@ This is the copy of website for The 7<sup>th</sup> International Conference on S
 
 ## License
 
-© 2022 Badan Penerbit dan Publikasi UGM under the MIT License.
+© 2023 Badan Penerbit dan Publikasi UGM under the MIT License.
